@@ -12,7 +12,9 @@ Figure 1 shows the coefficients of the features in the logistic regression model
 
 It's quite interesting that employees are _less_ likely to leave a company if they've suffered a work accident in their time there; my theory is that they tend to receive a benefits package or something similar to convince them to stay as a happy worker and not sue the company. Also of note is the relatively small part the employee's department plays, especially when compared to "major events" like having a work accident or not being promoted. However, within the comparison between departments, human resources workers are most likely to leave, while management and miscellaneous employees are least likely to quit.
 
-...
+Now we have the potential to solve an interesting problem: how can employers best optimize their employee conditions to minimize attrition rate while keeping costs low? Well, fortunately enough, our logistic regression model can predict the likelihood of an employee quitting given their current conditions, as well as how that might vary depending on how those conditions change. Below are some example graphs for a fairly average employee; [...]
+
+We can also extend the predicted quitting probability for some given set of conditions to be the total attrition rate of a company or department or subgroup where all employees exist in conditions similar to the ones given; this allows employers to design their department environments to minimize expenses with a maximum allowable attrition rate in mind. [...]
 
 <sup>[1] [Human Resources Analytics: Why are our best and most experienced employees leaving prematurely?](https://www.kaggle.com/ludobenistant/hr-analytics)
 <br>
