@@ -6,7 +6,7 @@ _Medium_, an online journal with a dedicated data science category, published an
 
 The obvious thing to do, with access to all of these features and a categorical result variable, is to train a logistic regression model. With so many different categories, it's hard to really say what primarily drives an employee to quit their job; for that, we can look at the coefficient parameters of our trained model. We can discount any of the features with a p-value greater than 0.1; these are not necessarily statistically significant, and we don't want to risk coming to any false or unsupported conclusions.
 
-![Figure 1: Logistic regression Model Coefficients](../img/logreg coeffs.png)
+![Figure 1: Logistic Regression Model Coefficients](../img/logreg_coeffs.png)
 
 Figure 1 shows the coefficients of the features in the logistic regression model that can be considered statistically significant, where negative values correspond to conditions in which employees tend to stay and positive values correspond to conditions that make employees want to leave. As we might have suspected, satisfaction level is _extremely_ important to keeping your employees, and the lower the pay grade, the more likely they are to leave. Additionally, a longer employment duration is a big indicator of quitting likelihood; however, this is almost certainly due to the tendency we have of transitioning between jobs over time until we retire.
 
