@@ -1,10 +1,10 @@
-### Designing the Optimal Employee Experience (For Employers' Wallets)
+### Designing the Optimal Employee Experience (For Employers)
 
 ##### Joey Maalouf
 
 _Medium_, an online journal with a dedicated data science category, published an interesting dataset on _Kaggle_ about employee conditions and whether or not a given employee quit their job at that company<sup>[1]</sup>. It contains 15,000 responses with a variety of potentially useful fields, such as the employee's pay grade, number of projects, and average monthly hours.
 
-The obvious thing to do, with access to all of these features and a categorical result variable, is to train a logistic regression model. With so many different categories, it's hard to really say what primarily drives an employee to quit their job; for that, we can look at the coefficient parameters of our trained model. We can discount any of the features with a p-value greater than 0.05 as not necessarily statistically significant, and we don't want to risk coming to any false or unsupported conclusions.
+The obvious thing to do, with access to all of these features and a categorical result variable, is to train a logistic regression model. With so many different categories, it's hard to really say what primarily drives an employee to quit their job; for that, we can look at the coefficient parameters of our trained model. We can discount any of the features with a p-value greater than 0.05 as not necessarily statistically significant, as we don't want to risk coming to any false or unsupported conclusions.
 
 ![Figure 1: Logistic Regression Model Coefficients](../img/logreg_coeffs.png)
 
