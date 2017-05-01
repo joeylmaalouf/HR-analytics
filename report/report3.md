@@ -1,4 +1,4 @@
-### Designing the Optimal Employee Experience (For Employers)
+### Designing the Optimal Employee Experience... For Employers
 
 ##### Joey Maalouf
 
